@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B073161B24730D1A005E2AFD /* theBoldFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B073161A24730D1A005E2AFD /* theBoldFont.ttf */; };
+		B073161D2473224B005E2AFD /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B073161C2473224B005E2AFD /* GameOverScene.swift */; };
+		B09251AF2461501700E9EBF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09251AE2461501700E9EBF3 /* AppDelegate.swift */; };
+		B09251B12461501700E9EBF3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B09251B02461501700E9EBF3 /* GameScene.sks */; };
+		B09251B32461501700E9EBF3 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B09251B22461501700E9EBF3 /* Actions.sks */; };
+		B09251B52461501700E9EBF3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09251B42461501700E9EBF3 /* GameScene.swift */; };
+		B09251B72461501700E9EBF3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09251B62461501700E9EBF3 /* GameViewController.swift */; };
+		B09251BA2461501700E9EBF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B09251B82461501700E9EBF3 /* Main.storyboard */; };
+		B09251BC2461501900E9EBF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B09251BB2461501900E9EBF3 /* Assets.xcassets */; };
+		B09251BF2461501900E9EBF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B09251BD2461501900E9EBF3 /* LaunchScreen.storyboard */; };
+		B09251CA2461501900E9EBF3 /* Aplicatie_tip_Chicken_InvadersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09251C92461501900E9EBF3 /* Aplicatie_tip_Chicken_InvadersTests.swift */; };
+		B09251D52461501900E9EBF3 /* Aplicatie_tip_Chicken_InvadersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09251D42461501900E9EBF3 /* Aplicatie_tip_Chicken_InvadersUITests.swift */; };
+		B09251E524615CB800E9EBF3 /* bulletSoundEffect.wav in Resources */ = {isa = PBXBuildFile; fileRef = B09251E424615CB800E9EBF3 /* bulletSoundEffect.wav */; };
+		B0B0B4122473D9FD0073FA46 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B0B4112473D9FD0073FA46 /* MainMenuScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B09251C62461501900E9EBF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B09251A32461501700E9EBF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B09251AA2461501700E9EBF3;
+			remoteInfo = "Aplicatie tip Chicken Invaders";
+		};
+		B09251D12461501900E9EBF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B09251A32461501700E9EBF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B09251AA2461501700E9EBF3;
+			remoteInfo = "Aplicatie tip Chicken Invaders";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B073161A24730D1A005E2AFD /* theBoldFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = theBoldFont.ttf; sourceTree = "<group>"; };
+		B073161C2473224B005E2AFD /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		B09251AB2461501700E9EBF3 /* Aplicatie tip Chicken Invaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aplicatie tip Chicken Invaders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B09251AE2461501700E9EBF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B09251B02461501700E9EBF3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B09251B22461501700E9EBF3 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		B09251B42461501700E9EBF3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		B09251B62461501700E9EBF3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B09251B92461501700E9EBF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B09251BB2461501900E9EBF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B09251BE2461501900E9EBF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B09251C02461501900E9EBF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B09251C52461501900E9EBF3 /* Aplicatie tip Chicken InvadersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aplicatie tip Chicken InvadersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B09251C92461501900E9EBF3 /* Aplicatie_tip_Chicken_InvadersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aplicatie_tip_Chicken_InvadersTests.swift; sourceTree = "<group>"; };
+		B09251CB2461501900E9EBF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B09251D02461501900E9EBF3 /* Aplicatie tip Chicken InvadersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aplicatie tip Chicken InvadersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B09251D42461501900E9EBF3 /* Aplicatie_tip_Chicken_InvadersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aplicatie_tip_Chicken_InvadersUITests.swift; sourceTree = "<group>"; };
+		B09251D62461501900E9EBF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B09251E424615CB800E9EBF3 /* bulletSoundEffect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bulletSoundEffect.wav; sourceTree = "<group>"; };
+		B0B0B4112473D9FD0073FA46 /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B09251A82461501700E9EBF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09251C22461501900E9EBF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09251CD2461501900E9EBF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B09251A22461501700E9EBF3 = {
+			isa = PBXGroup;
+			children = (
+				B09251AD2461501700E9EBF3 /* Aplicatie tip Chicken Invaders */,
+				B09251C82461501900E9EBF3 /* Aplicatie tip Chicken InvadersTests */,
+				B09251D32461501900E9EBF3 /* Aplicatie tip Chicken InvadersUITests */,
+				B09251AC2461501700E9EBF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B09251AC2461501700E9EBF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B09251AB2461501700E9EBF3 /* Aplicatie tip Chicken Invaders.app */,
+				B09251C52461501900E9EBF3 /* Aplicatie tip Chicken InvadersTests.xctest */,
+				B09251D02461501900E9EBF3 /* Aplicatie tip Chicken InvadersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B09251AD2461501700E9EBF3 /* Aplicatie tip Chicken Invaders */ = {
+			isa = PBXGroup;
+			children = (
+				B09251AE2461501700E9EBF3 /* AppDelegate.swift */,
+				B09251B02461501700E9EBF3 /* GameScene.sks */,
+				B09251B22461501700E9EBF3 /* Actions.sks */,
+				B09251B42461501700E9EBF3 /* GameScene.swift */,
+				B0B0B4112473D9FD0073FA46 /* MainMenuScene.swift */,
+				B073161C2473224B005E2AFD /* GameOverScene.swift */,
+				B09251B62461501700E9EBF3 /* GameViewController.swift */,
+				B09251E424615CB800E9EBF3 /* bulletSoundEffect.wav */,
+				B073161A24730D1A005E2AFD /* theBoldFont.ttf */,
+				B09251B82461501700E9EBF3 /* Main.storyboard */,
+				B09251BB2461501900E9EBF3 /* Assets.xcassets */,
+				B09251BD2461501900E9EBF3 /* LaunchScreen.storyboard */,
+				B09251C02461501900E9EBF3 /* Info.plist */,
+			);
+			path = "Aplicatie tip Chicken Invaders";
+			sourceTree = "<group>";
+		};
+		B09251C82461501900E9EBF3 /* Aplicatie tip Chicken InvadersTests */ = {
+			isa = PBXGroup;
+			children = (
+				B09251C92461501900E9EBF3 /* Aplicatie_tip_Chicken_InvadersTests.swift */,
+				B09251CB2461501900E9EBF3 /* Info.plist */,
+			);
+			path = "Aplicatie tip Chicken InvadersTests";
+			sourceTree = "<group>";
+		};
+		B09251D32461501900E9EBF3 /* Aplicatie tip Chicken InvadersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B09251D42461501900E9EBF3 /* Aplicatie_tip_Chicken_InvadersUITests.swift */,
+				B09251D62461501900E9EBF3 /* Info.plist */,
+			);
+			path = "Aplicatie tip Chicken InvadersUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B09251AA2461501700E9EBF3 /* Aplicatie tip Chicken Invaders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B09251D92461501900E9EBF3 /* Build configuration list for PBXNativeTarget "Aplicatie tip Chicken Invaders" */;
+			buildPhases = (
+				B09251A72461501700E9EBF3 /* Sources */,
+				B09251A82461501700E9EBF3 /* Frameworks */,
+				B09251A92461501700E9EBF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aplicatie tip Chicken Invaders";
+			productName = "Aplicatie tip Chicken Invaders";
+			productReference = B09251AB2461501700E9EBF3 /* Aplicatie tip Chicken Invaders.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B09251C42461501900E9EBF3 /* Aplicatie tip Chicken InvadersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B09251DC2461501900E9EBF3 /* Build configuration list for PBXNativeTarget "Aplicatie tip Chicken InvadersTests" */;
+			buildPhases = (
+				B09251C12461501900E9EBF3 /* Sources */,
+				B09251C22461501900E9EBF3 /* Frameworks */,
+				B09251C32461501900E9EBF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B09251C72461501900E9EBF3 /* PBXTargetDependency */,
+			);
+			name = "Aplicatie tip Chicken InvadersTests";
+			productName = "Aplicatie tip Chicken InvadersTests";
+			productReference = B09251C52461501900E9EBF3 /* Aplicatie tip Chicken InvadersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B09251CF2461501900E9EBF3 /* Aplicatie tip Chicken InvadersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B09251DF2461501900E9EBF3 /* Build configuration list for PBXNativeTarget "Aplicatie tip Chicken InvadersUITests" */;
+			buildPhases = (
+				B09251CC2461501900E9EBF3 /* Sources */,
+				B09251CD2461501900E9EBF3 /* Frameworks */,
+				B09251CE2461501900E9EBF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B09251D22461501900E9EBF3 /* PBXTargetDependency */,
+			);
+			name = "Aplicatie tip Chicken InvadersUITests";
+			productName = "Aplicatie tip Chicken InvadersUITests";
+			productReference = B09251D02461501900E9EBF3 /* Aplicatie tip Chicken InvadersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B09251A32461501700E9EBF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = user169232;
+				TargetAttributes = {
+					B09251AA2461501700E9EBF3 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					B09251C42461501900E9EBF3 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = B09251AA2461501700E9EBF3;
+					};
+					B09251CF2461501900E9EBF3 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = B09251AA2461501700E9EBF3;
+					};
+				};
+			};
+			buildConfigurationList = B09251A62461501700E9EBF3 /* Build configuration list for PBXProject "Aplicatie tip Chicken Invaders" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B09251A22461501700E9EBF3;
+			productRefGroup = B09251AC2461501700E9EBF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B09251AA2461501700E9EBF3 /* Aplicatie tip Chicken Invaders */,
+				B09251C42461501900E9EBF3 /* Aplicatie tip Chicken InvadersTests */,
+				B09251CF2461501900E9EBF3 /* Aplicatie tip Chicken InvadersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B09251A92461501700E9EBF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09251BA2461501700E9EBF3 /* Main.storyboard in Resources */,
+				B073161B24730D1A005E2AFD /* theBoldFont.ttf in Resources */,
+				B09251B12461501700E9EBF3 /* GameScene.sks in Resources */,
+				B09251BC2461501900E9EBF3 /* Assets.xcassets in Resources */,
+				B09251BF2461501900E9EBF3 /* LaunchScreen.storyboard in Resources */,
+				B09251B32461501700E9EBF3 /* Actions.sks in Resources */,
+				B09251E524615CB800E9EBF3 /* bulletSoundEffect.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09251C32461501900E9EBF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09251CE2461501900E9EBF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B09251A72461501700E9EBF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B0B4122473D9FD0073FA46 /* MainMenuScene.swift in Sources */,
+				B09251B52461501700E9EBF3 /* GameScene.swift in Sources */,
+				B09251B72461501700E9EBF3 /* GameViewController.swift in Sources */,
+				B073161D2473224B005E2AFD /* GameOverScene.swift in Sources */,
+				B09251AF2461501700E9EBF3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09251C12461501900E9EBF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09251CA2461501900E9EBF3 /* Aplicatie_tip_Chicken_InvadersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09251CC2461501900E9EBF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09251D52461501900E9EBF3 /* Aplicatie_tip_Chicken_InvadersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B09251C72461501900E9EBF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B09251AA2461501700E9EBF3 /* Aplicatie tip Chicken Invaders */;
+			targetProxy = B09251C62461501900E9EBF3 /* PBXContainerItemProxy */;
+		};
+		B09251D22461501900E9EBF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B09251AA2461501700E9EBF3 /* Aplicatie tip Chicken Invaders */;
+			targetProxy = B09251D12461501900E9EBF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B09251B82461501700E9EBF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B09251B92461501700E9EBF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B09251BD2461501900E9EBF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B09251BE2461501900E9EBF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B09251D72461501900E9EBF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B09251D82461501900E9EBF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B09251DA2461501900E9EBF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aplicatie tip Chicken Invaders/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aplicatie-tip-Chicken-Invaders";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B09251DB2461501900E9EBF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aplicatie tip Chicken Invaders/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aplicatie-tip-Chicken-Invaders";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B09251DD2461501900E9EBF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aplicatie tip Chicken InvadersTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aplicatie-tip-Chicken-InvadersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aplicatie tip Chicken Invaders.app/Aplicatie tip Chicken Invaders";
+			};
+			name = Debug;
+		};
+		B09251DE2461501900E9EBF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aplicatie tip Chicken InvadersTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aplicatie-tip-Chicken-InvadersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aplicatie tip Chicken Invaders.app/Aplicatie tip Chicken Invaders";
+			};
+			name = Release;
+		};
+		B09251E02461501900E9EBF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aplicatie tip Chicken InvadersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aplicatie-tip-Chicken-InvadersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Aplicatie tip Chicken Invaders";
+			};
+			name = Debug;
+		};
+		B09251E12461501900E9EBF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aplicatie tip Chicken InvadersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aplicatie-tip-Chicken-InvadersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Aplicatie tip Chicken Invaders";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B09251A62461501700E9EBF3 /* Build configuration list for PBXProject "Aplicatie tip Chicken Invaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B09251D72461501900E9EBF3 /* Debug */,
+				B09251D82461501900E9EBF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B09251D92461501900E9EBF3 /* Build configuration list for PBXNativeTarget "Aplicatie tip Chicken Invaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B09251DA2461501900E9EBF3 /* Debug */,
+				B09251DB2461501900E9EBF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B09251DC2461501900E9EBF3 /* Build configuration list for PBXNativeTarget "Aplicatie tip Chicken InvadersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B09251DD2461501900E9EBF3 /* Debug */,
+				B09251DE2461501900E9EBF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B09251DF2461501900E9EBF3 /* Build configuration list for PBXNativeTarget "Aplicatie tip Chicken InvadersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B09251E02461501900E9EBF3 /* Debug */,
+				B09251E12461501900E9EBF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B09251A32461501700E9EBF3 /* Project object */;
+}
